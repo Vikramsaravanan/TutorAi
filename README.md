@@ -94,6 +94,6 @@ tutorgen-AI/
 Upon successfully connecting to the database, the backend automatically seeds a default **Super Admin** account:
 
 *   **Email**: `superadmin@gmail.com`
-*   **Password**: `kit@123`
+*   **Password**: `thisissuperadminhere`
 
 *Note: For all newly created sub-roles (Dean, HOD, Mentor, Student), the default password is `Kit@123` unless specified otherwise.*
