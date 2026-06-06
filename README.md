@@ -1,8 +1,8 @@
-# TutorGen AI 🚀
+# TutorGen AI 
 
 TutorGen AI is a comprehensive, full-stack educational and mentorship management system. It provides an institutional hierarchy to manage students' academic progress while offering AI-driven, competitive programming (DSA) assessments with real-time feedback, complexity analysis, and personalized learning roadmaps.
 
-## 🌟 Key Features
+## Key Features
 
 *   **Hierarchical Role Management**: A deeply integrated role system defining institutional structure.
     *   **Super Admin** -> Creates and manages Deans.
@@ -14,14 +14,14 @@ TutorGen AI is a comprehensive, full-stack educational and mentorship management
 *   **Personalized Roadmaps**: Students receive actionable feedback and AI-generated roadmaps to improve weak areas and strengthen their competitive programming skills.
 *   **Performance Tracking**: Dashboards for all roles to track hierarchical metrics and student progress seamlessly.
 
-## 💻 Tech Stack
+##  Tech Stack
 
 *   **Frontend**: React 19, Vite, Tailwind CSS v4, React Router DOM, Lucide React, Axios.
 *   **Backend**: Node.js, Express.js, Mongoose, JSON Web Tokens (JWT), Bcrypt, Multer (for CSV bulk uploads).
 *   **Database**: MongoDB.
 *   **AI Engine**: Groq SDK (LLaMA 3.3 70B model).
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 tutorgen-AI/
@@ -44,7 +44,7 @@ tutorgen-AI/
 └── package.json        # Root workspace configuration
 ```
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -89,7 +89,7 @@ tutorgen-AI/
        npm run dev
        ```
 
-## 🔐 Default Admin Login
+## Default Admin Login
 
 Upon successfully connecting to the database, the backend automatically seeds a default **Super Admin** account:
 
